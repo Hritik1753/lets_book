@@ -4,11 +4,12 @@ import {Link, useNavigate} from "react-router-dom"
 import AuthContext from "../../context/AuthContext"
 const Navbar = () => {
   const navigate = useNavigate();
-  const { user } = useContext(AuthContext);
+  const { loading, dispatch,user } = useContext(AuthContext);
   const handleLogout = () => {
+    dispatch({ type: "LOGOUT" });
     localStorage.removeItem('user');
     // props.showAlert("Logout successfully", "success");
-    navigate('/login');
+    navigate('/');
   }
   const handlelogin = () => {
     navigate('/login');
