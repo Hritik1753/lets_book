@@ -9,7 +9,7 @@
 
 .featuredItem{
   position: relative;
-  color: white;
+  color: rgb(230, 241, 243);
   border-radius: 10px;
   overflow: hidden;
   height: 250px;
