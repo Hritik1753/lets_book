@@ -66,7 +66,7 @@ const Header = ({ type }) => {
         }
       >
          
-      <img src="./im/p2.jpg"  alt="" height="50%" width ="100%"/>
+      {/* <img src="./im/p2.jpg"  alt="" height="50%" width ="100%"/> */}
         <div className="headerList">
           <div className="headerListItem active">
             <FontAwesomeIcon icon={faBed} />
