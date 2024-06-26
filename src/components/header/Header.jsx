@@ -59,11 +59,14 @@ const Header = ({ type }) => {
 
   return (
     <div className="header">
+       
       <div
         className={
           type === "list" ? "headerContainer listMode" : "headerContainer"
         }
       >
+         
+      <img src="./im/p2.jpg"  alt="" height="50%" width ="100%"/>
         <div className="headerList">
           <div className="headerListItem active">
             <FontAwesomeIcon icon={faBed} />
